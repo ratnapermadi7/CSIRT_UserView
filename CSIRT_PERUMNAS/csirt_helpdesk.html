@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELPDESK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/dataTables.bootstrap5.min.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <img class="slider " src="icon_helpdesk.jpg" alt="slider" ; width="100%">
+    <div class="container">
+
+        <div class="about-us">
+            <h1>
+                Helpdesk
+            </h1>
+            <br>
+            <div class="contain">
+                <div class="wrapper">
+                </div>
+                <div class="form">
+                    <h3>Silahkan lengkapi formulir dibawah ini</h3>
+                    <form action="">
+                        <p>
+                            <label for="">NAMA LENGKAP*</label>
+                            <input type="text" id="namalpr" placeholder="silahkan isi nama anda...">
+                        </p>
+                        <p>
+                            <label for="">EMAIL*</label>
+                            <input type="text" id="emaillpr" placeholder="silahkan isi email anda..." required>
+                        </p>
+                        <p>
+                            <label for="">KATEGORI PRIORITAS*</label>
+                            <input list="kategori aduan" name="kategoriaduan" placeholder="silahkan tentukan kategori laporan anda...">
+                            <datalist id="kategori aduan">
+                <option value="tinggi">
+                <option value="sedang">
+                <option value="rendah">
+                </datalist>
+                        </p>
+                        <p>
+                            <label for="">NOMOR TELEPON*</label>
+                            <input type="text" id="nomerlpr" placeholder="silahkan isi nomor telepon anda..." required>
+                        </p>
+
+                        <p>
+                            <label for="">JUDUL LAPORAN*</label>
+                            <input type="text" id="judullpr" placeholder="isi judul disini..." required>
+                        </p>
+                        <p class="full-width">
+                            <label for="">ISI LAPORAN*</label>
+                            <input name="isilaporan" id="isilpr" cols="40" rows="10" height="100px" placeholder="silahkan isi laporan anda disini..." required>
+                        </p>
+                        <label>FILE PENDUKUNG</label>
+                        <BR>
+                        <input type="file" accept="image/*" class="file-laporan"><br>
+                        <p class="send">
+                            <button>Kirim</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer-part">
+    </footer>
+</body>
+
+</html>
